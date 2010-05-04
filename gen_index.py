@@ -12,10 +12,10 @@ index_template = """<html><head><title>Links for boost-python</title></head><bod
 </body></html>"""
 
 for name,url in repos.iteritems():
-    os.mkdir(os.path.join(here,name))
     normal_name = name.replace('.','-')
+    os.mkdir(os.path.join(here,normal_name))
     assert url.startswith('git://')
     url_tail = url[len('git://'):]
     name_tail = name[name.find('.')+1:]
-    open(os.path.join(here,name,'index.html'), 'w').write(
+    open(os.path.join(here,normal_name,'index.html'), 'w').write(
         index_template % locals())
