@@ -11,6 +11,7 @@ repos = {
 'boost.compatibility' : 'git://gitorious.org/boost/compatibility.git',
 'boost.concept_check' : 'git://gitorious.org/boost/concept_check.git',
 'boost.config' : 'git://gitorious.org/boost/config_.git',
+'boost.cmake' : 'git://gitorious.org/ryppl/cmake.git',
 'boost.core' : 'git://gitorious.org/boost/core.git',
 'boost.crc' : 'git://gitorious.org/boost/crc.git',
 'boost.date_time' : 'git://gitorious.org/boost/date_time.git',
