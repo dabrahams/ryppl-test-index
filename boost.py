@@ -10,7 +10,7 @@ repos = {
 'boost.circular_buffer' : 'git://gitorious.org/boost/circular_buffer.git',
 'boost.compatibility' : 'git://gitorious.org/boost/compatibility.git',
 'boost.concept_check' : 'git://gitorious.org/boost/concept_check.git',
-'boost.config_' : 'git://gitorious.org/boost/config_.git',
+'boost.config' : 'git://gitorious.org/boost/config_.git',
 'boost.core' : 'git://gitorious.org/boost/core.git',
 'boost.crc' : 'git://gitorious.org/boost/crc.git',
 'boost.date_time' : 'git://gitorious.org/boost/date_time.git',
